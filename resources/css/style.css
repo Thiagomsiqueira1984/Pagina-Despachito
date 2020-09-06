@@ -26,7 +26,7 @@ body {
 }
 
 #pag3{
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -128,11 +128,10 @@ body {
 }
 
 video{
-    max-width: 80em;
-    width: 75vw;
-    max-height: 60em;
-    height: 75vh;
-
+    width: 70vw;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 4px 4px 6px 1px rgba(0,0,0,0.3);
 }
 
 .textoInfo{
